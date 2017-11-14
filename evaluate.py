@@ -102,4 +102,4 @@ if __name__ == '__main__':
         label_dir       = os.path.expanduser('~/.keras/datasets/VOC2012/VOCdevkit/VOC2012/SegmentationClass')
         label_suffix = '.npy'
     evaluate(model_name, weight_file, image_size, nb_classes, batch_size, val_file_path, data_dir, label_dir,
-             label_suffix=label_suffix, data_suffix=data_suffix)
+             label_suffix=label_suffix)#, data_suffix=data_suffix)
